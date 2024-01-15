@@ -1,0 +1,125 @@
+body{
+    background-color: rgb(4, 4, 100);
+    font-family: 'Recursive', sans-serif;
+}
+.cabecalho{
+    padding-right: 20px;
+    padding-left: 60px;
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;   
+}
+.cabecalho_logo{
+    max-width: 150px;
+}
+.cabecalho_lista{
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.titulos{
+    text-decoration: none;
+    font-size: 24px;
+    font-style: normal;
+    color: white;
+}
+
+.banner{
+    background-image: url("https://www.pixel4k.com/wp-content/uploads/2018/09/marvel-cinematic-universe-artwork5k_1536523877.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner_texto{
+    background-color: white;
+    padding: 25px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s ease-in-out;
+}
+.banner_texto:hover{
+    transform: scale(1.1);
+}
+
+.banner_titulo{
+    font-size: 24px;
+    font-family: "Pacifico";
+    color: rgb(4, 4, 100);
+}
+.banner_detalhe{
+    color: rgb(4, 4, 100);
+    font-family: "Rubik Glitch";
+    font-size: 36px;
+}
+.banner_botao{
+    color: white;
+    background-color: rgb(4, 4, 100);
+    font-family: "Pacifico";
+    font-size: 24px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+.titulo_categoria{
+    font-family: "Pacifico";
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+.categorias{
+    height: 100vh;
+    padding: 0 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.caixa_maior{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 900px;
+    
+}
+.caixa_interna{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    border: 1px solid white;
+    padding: 50px;
+}
+.titulo_interno{
+    font-size: 30px;
+}
+.botao_interno{
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.curiosidades{
+    height: 100vh;
+    background-image: url("https://poltronanerd.com.br/wp-content/uploads/2021/07/Marvel-HQ.jpg");
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
